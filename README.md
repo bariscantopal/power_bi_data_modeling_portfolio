@@ -33,9 +33,10 @@ The original dataset contained unstructured tables, many-to-many relationships, 
 * `dataset.xlsx`: The raw data source used for the transformation.
 
 ## Data Model: Before & After
-<p float="left">
-  <img src="nightmare_model.jpg" width="45%" title="Before: Nightmare Data Model" />
-  <img src="star_schema_model.png" width="45%" title="After: Clean Star Schema" />
-</p>
+
+| Before: Nightmare Data Model | After: Clean Star Schema |
+|:---:|:---:|
+| <img src="nightmare_model.png" width="500"/> | <img src="star_schema_model.png" width="500"/> |
+
 ---
 *Credits & Acknowledgments: This project was built by following the excellent 'Power BI Data Modeling Portfolio Project' tutorial by Data with Baraa on YouTube. The dataset and core modeling concepts belong to the original creator.*
