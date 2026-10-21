@@ -33,4 +33,5 @@ The original dataset contained unstructured tables, many-to-many relationships, 
 * `dataset.xlsx`: The raw data source used for the transformation.
 
 ---
-*Credits & Acknowledgments: This project was built by following the excellent 'Power BI Data Modeling Portfolio Project' tutorial by Data with Baraa on YouTube. The dataset and core modeling concepts belong to the original creator.*
+*Credits & Acknowledgments: This project was built by following the excellent 'Power BI Data Modeling Portfolio Project' tutorial by Data with Baraa on YouTube. The dataset and core modeling concepts belong to the original creator.
+Video Link: https://www.youtube.com/watch?v=0A2k62YEbfI&list=PLNcg_FV9n7qZge4KDGqGtqgiuVuhVZWzu&index=26*
