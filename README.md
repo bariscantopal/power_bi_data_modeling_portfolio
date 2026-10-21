@@ -25,12 +25,6 @@ The original dataset contained unstructured tables, many-to-many relationships, 
 4. **Data Modeling (Star Schema):** 
    * Replaced many-to-many chaos with clean **1-to-Many** relationships with single filter directions.
    * Generated an automated Date Dimension using `CALENDARAUTO()`.
-   * ## 📊 Data Model: Before & After
-
-<p float="left">
-  <img src="nightmare_model.jpg" width="45%" title="Before: Nightmare Data Model" />
-  <img src="star_schema_model.png" width="45%" title="After: Clean Star Schema" />
-</p>
 5. **Role-Level Security (RLS):** 
    * Implemented dynamic RLS to restrict data access based on the user's assigned region (`USERPRINCIPALNAME()`).
 
