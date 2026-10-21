@@ -20,7 +20,7 @@ The original dataset contained unstructured tables, many-to-many relationships, 
    * Generated surrogate keys where business keys were missing or inconsistent.
 3. **Fact Table Engineering:** 
    * Merged header and detail tables to create robust fact tables (e.g., `fact_sales`).
-   * Created an **Accumulating Snapshot Fact Table** to track the entire order fulfillment process (Order -> Ship -> Invoice -> Pay).
+   * Created an **Accumulating Snapshot Fact Table** to track the entire order fulfillment process (Order -> Ship -> Delivery -> Invoice -> Pay).
    * Ensured all pre-aggregated totals from source systems were removed and recalculated dynamically using DAX.
 4. **Data Modeling (Star Schema):** 
    * Replaced many-to-many chaos with clean **1-to-Many** relationships with single filter directions.
